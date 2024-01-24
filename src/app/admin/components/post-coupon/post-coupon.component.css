@@ -1,0 +1,32 @@
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-field {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  mat-form-field {
+    display: block;
+  }
+  
+  input {
+    width: 100%;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 16px;
+  }
+  

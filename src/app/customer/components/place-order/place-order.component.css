@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  mat-card {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  mat-card-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  mat-card-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .order-button {
+    width: 48%;
+  }
+  
+  .close-button {
+    width: 48%;
+  }
+  
+  /* Add more styling as needed */
+  

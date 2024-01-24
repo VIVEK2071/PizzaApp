@@ -1,0 +1,29 @@
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .search-input {
+    width: 300px;
+  }
+  
+  .order-details-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  mat-card {
+    width: 400px;
+  }
+  
+  .order-detail {
+    margin: 10px 0;
+  }
+  
+  .order-detail strong {
+    font-weight: bold;
+    color: #007bff;
+  }
+  

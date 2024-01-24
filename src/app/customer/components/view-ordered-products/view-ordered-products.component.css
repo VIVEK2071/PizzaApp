@@ -1,0 +1,81 @@
+.ordered-product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .ordered-product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .product-info {
+    display: flex;
+  }
+  
+  .product-image img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .product-details {
+    flex-grow: 1;
+  }
+  
+  .item-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .item-name {
+    font-weight: bold;
+  }
+  
+  .item-price {
+    color: #777;
+  }
+  
+  .action-buttons {
+    margin-top: 10px;
+  }
+  
+  .total-price {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Add hover effect for better interactivity */
+  .ordered-product:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  /* Add a border around the image for better visibility */
+  .product-image img {
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the "Give Review" button */
+  .action-buttons button {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  .action-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .ordered-product {
+      width: 100%;
+    }
+  }
+  
